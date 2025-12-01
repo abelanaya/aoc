@@ -1,5 +1,5 @@
 <h1 align="center">
-    Advent of Code Solutions 2024 🎅🎄🎁
+    Advent of Code Solutions 2025 🎅🎄🎁
 </h1>
 
 <h4 align="center">
@@ -15,7 +15,7 @@
     Summary
 </h2>
 <p>
-    Solutions to programming challenges of <a href="https://adventofcode.com/" target="_blank">Advent of Code<a>. Consists of 25 days of programming challenges.
+    Solutions to programming challenges of <a href="https://adventofcode.com/" target="_blank">Advent of Code<a>. Consists of 12 days of programming challenges.
 </p>
 
 <h2>
