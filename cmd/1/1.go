@@ -37,7 +37,7 @@ func dialOperate(dial int, operation string, count int, dialNumberZeroes *int) i
 }
 
 func main() {
-	fp, err := os.Open(os.Args[1])
+	fp, err := os.Open("inputs/1/input.txt")
 
 	if err != nil {
 		fmt.Println("Error:", err)
