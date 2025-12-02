@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -9,9 +8,8 @@ import (
 )
 
 func checkInvalidIdV2(num int) bool {
-	numAsText := fmt.Sprintf("%d", num)
-
 	var sequence string
+	numAsText := strconv.Itoa(num)
 
 	for _, c := range numAsText {
 
@@ -34,8 +32,10 @@ func countInvalidIds(first int, last int, idsAddition *int, invalidIdsCountV2 *i
 	var invalidIds int
 
 	for num := first; num <= last; num++ {
-		if len(fmt.Sprintf("%d", num))%2 == 0 {
-			numAsText := fmt.Sprintf("%d", num)
+
+		numAsText := strconv.Itoa(num)
+
+		if len(numAsText)%2 == 0 {
 			firstHalf := numAsText[0:(len(numAsText) / 2)]
 			secondHalf := numAsText[(len(numAsText) / 2):]
 
