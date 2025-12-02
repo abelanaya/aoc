@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 	"strconv"
 )
@@ -62,6 +63,6 @@ func main() {
 		dialCurrent = dialOperate(dialCurrent, operation, count, &dialNumberZeroes)
 	}
 
-	fmt.Println("Last dial is: ", dialCurrent)
-	fmt.Println("Number of zeroes is: ", dialNumberZeroes)
+	log.Println("Last dial is: ", dialCurrent)
+	log.Println("Number of zeroes is: ", dialNumberZeroes)
 }
